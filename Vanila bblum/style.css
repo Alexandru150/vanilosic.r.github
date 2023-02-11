@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&display=swap');
+
+@media screen and(max-width:1200px) {}
+@media screen and (max-width:998px) {}
+@media screen and (max-width:768px) {}
+@media screen and (max-width:556px){}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    scroll-behavior: smooth;
+    height: 100%;;
+}
+
+body {
+    height: 300vh;
+}
+
+/* headerul--header */
+header {
+    position:sticky !important;
+    top:0;
+    left: 0;
+    z-index: 9;
+    height: 3.1%;
+    width: 100%;
+    background-color: #ffba71e3  ;
+    animation: showElement;
+    animation-duration: 2.5s;
+}
+.header{
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+}
+@keyframes showElement {
+    0% {
+        opacity: 0.2;
+
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+    }
+}
+.insta {
+    margin-left: 11.6%;
+    margin-top: 1.4%;
+    cursor:pointer;
+}
+
+.facebook {
+    margin-left: 2.8%;
+    margin-top: -0.3%;
+
+}
+
+.telefon {
+    margin-left: 2.4%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: -0.4%;
+    font-size: 2vh;
+    border-bottom: 0.1em solid rgba(100, 100, 100, 0.807);
+    transition: 0.5s;
+
+}
+
+.telefon:hover {
+    color: rgba(43, 43, 43, 0.774);
+}
+
+
+.name_link {
+    text-decoration: none;
+    color: aliceblue
+}
+.image-head{
+    width: 19%;
+    margin-left:31.3%;
+    margin-top:-3%;
+}
+/* linkurile din navbar */
+#navbar{
+ position:relative;
+ margin-left:53.3%;
+ margin-top:-2.7%
+}
+
+#navbar a{
+    padding:0.3% 6%;;
+    font-size: 2.1vh;
+    text-decoration: none;
+    color:#ffff;
+    background:linear-gradient(rgba(92, 92, 92, 0.872) 0 0)bottom /var(--t,0) 2px no-repeat;
+    transition:.5s; 
+}
+#navbar a:hover{
+    --t:43%
+}
+.header_email{ color:#000000;
+    margin-left:62%;
+    margin-top:-2%;
+}
+main{position:absolute;
+    flex:1 1 auto;
+    height:96%;
+    width:100%;
+    margin-top:-4.6%;
+    background-color: #f3c4a6;
+    z-index:5;
+}
+#main_container .tet-s{
+    font-family: Bitter;
+    color:rgb(129, 86, 86);
+    font-size: 3em;
+    margin-left: 8.4%;
+    margin-top:17.9%;
+    
+}
+#main_container .text-1{
+    max-width: 500px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    margin-left:13%;
+    margin-top:3.2%;
+    
+}
+.button-text-1 button {
+    margin-left:41%;
+    margin-top:3.3%;
+    border:0;
+    font-size:1.9vh;
+    padding:8px 13px 8px 13px;
+    border-radius:1.2vh;
+    background-color:blanchedalmond;
+    color:linear-gradient(45deg,rgb(150, 255, 150),rgb(255, 255, 255));
+    cursor:pointer;
+    transition:0.4s;
+}
+.button-text-1 button:hover{
+    text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;;
+
+}
+.imagine-png-intro{
+    position:absolute;
+    z-index:4;
+    transform:rotate(6deg);
+    margin-left:52%;
+    margin-top:-17%;
+    
+}
+.imagine-png-intro1{
+    position:absolute;
+    z-index:3;
+    transform:rotate(-12deg);
+    margin-left:30%;
+    margin-top:1%;
+}
+.imagine-png-intro2{
+    position:absolute;
+    z-index:4;
+    transform:rotate(-20deg);
+    text-align: right;
+    margin-left:74%;
+    margin-top:-8%;
+}
+.imagine-png-intro3{
+    position:absolute;
+    z-index:1;
+    margin-left:66%;
+    margin-top:-25%
+}
+.custom-shape-divider-top-1675507010 {
+    position: absolute;
+    top: 98.4%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1675507010 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 45px;
+}
+
+.custom-shape-divider-top-1675507010 .shape-fill {
+    fill: #f3c4a6;
+}
+
+#main-center{
+    position:sticky;
+    margin-top:7%;
+    z-index:-1;
+    height:290%;
+    background-color:rgba(251, 197, 255, 0.838);
+    
+    
+}
+.but_prod{
+    display:flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding:5%;
+    
+    
+    
+}
+
+.button_product{
+margin-right:16.3%;
+cursor:pointer;
+font-size:1.9vh;
+padding:8px 13px 8px 13px;
+border-radius:1.2vh;
+background-color:rgb(255, 198, 198);
+border:0;
+}
+.button_product2{
+    margin-left:16.3%;
+    cursor:pointer;
+    font-size:1.9vh;
+padding:0px 13px 0px 13px;
+border-radius:1.2vh;
+background-color:rgb(255, 198, 198);
+border:0;
+}
+.button_product1{
+    cursor:pointer;
+    font-size:1.9vh;
+padding:0px 13px 0px 13px;
+border-radius:1.2vh;
+background-color:rgb(255, 198, 198);
+border:0;
+}
+
+/* producte torturi de vanzare */
+#products-tort{ 
+    
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    flex: auto;
+    z-index:7;
+    height:50%;
+    background-color: red;;
+    width:79%;
+    margin-left:11%;
+}
+#products-tort .tort{
+    background-color:rgb(87, 42, 42);
+    width:23%;
+    height:34%;
+    margin:4.3%;
+    
+
+}
+#products-tort .tort img{
+    position:relative; z-index:-3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{position:relative;
+    /* z-index:5; */
+    height:300px;
+    width:300px;
+    background-color:green;
+}
